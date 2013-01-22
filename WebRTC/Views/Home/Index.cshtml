@@ -1,0 +1,46 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.8.3.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/Peer.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/StreamManager.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/WsSignalChannel.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/WebRtc.js")"></script>
+        <style>
+            
+            body {
+                font-family: Tahoma, Arial, sans-serif;
+                font-size: 14px; 
+            }
+
+            .videoWrapper {
+                border: solid 1px #CCC;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+                float: left;
+                padding: 10px 0 10px 10px;
+                width: 210px;
+                margin: 5px;
+            }
+
+            video {
+                width: 200px;
+                height: 150px;
+                margin-top: 5px;
+            }
+        </style>
+        <meta name="viewport" content="width=device-width" />
+        <title>WebRTC</title>
+
+    </head>
+<body>
+    <div id="getUserMediaFail" style="display:none;">
+        Getting a stream from your webcam failed. You will need a web browser that supports WebRTC like <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>
+    </div>
+</body>
+</html>
