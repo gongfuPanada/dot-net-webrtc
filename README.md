@@ -1,4 +1,7 @@
-dot-net-webrtc
-==============
+.Net WebRTC Experiment
+======================
 
-ASP.NET MVC WebRTC
+WebRTC Peer-to-peer video streaming experiment Using the Microsoft ASP.NET MVC 4 with WebSockets.
+
+Live:
+http://webrtc.radicalresearch.co.uk/
